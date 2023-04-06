@@ -37,8 +37,8 @@ export default function Home() {
           <div className="text-5xl flex justify-center text-grey-600">
             <AiFillInstagram/>
           </div>
-          <div className="relative mx-auto rounded-full w-80 h-80 mt-20 ">
-            <Image src={pete}/>
+          <div className="relative mx-auto rounded-full w-80 h-80 mt-20 overflow-hidden">
+            <Image src={pete} layout="fill" objectFit="cover"/>
           </div>
         </section>
       </main>
