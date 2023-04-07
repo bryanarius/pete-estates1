@@ -34,12 +34,27 @@ export default function Home() {
             <h3 className='text-2xl py-2'>Real Estate Investor</h3>
             <p className='text-md py-5 leading-8 text-gray-800'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tincidunt ipsum a lectus auctor suscipit. Sed consequat nisi quis dapibus tincidunt. Donec vel finibus turpis.</p>
           </div>
+
           <div className="text-5xl flex justify-center text-grey-600">
             <AiFillInstagram/>
           </div>
+
           <div className="relative mx-auto rounded-full w-80 h-80 mt-20 overflow-hidden">
             <Image src={pete} layout="fill" objectFit="cover"/>
           </div>
+        </section>
+
+        <section>
+          <h3 className="text-3xl py-1">Services I offer</h3>
+
+          <p className="text-md py-5 leading-8 text-gray-800">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et <span className="text-teal-500">dolore</span> magna aliqua. Cras pulvinar mattis nunc sed blandit libero volutpat. <span className="text-teal-500">Eros in cursus </span> turpis massa tincidunt dui ut. Est lorem ipsum dolor sit amet consectetur.
+          </p>
+
+          <p className="text-md py-5 leading-8 text-gray-800">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          </p>
+          
         </section>
       </main>
     </div>
