@@ -52,7 +52,7 @@ export default function Home() {
           </p>
 
           <p className="text-md py-5 leading-8 text-gray-800">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore ete
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore etes
           </p>
           
         </section>
